@@ -37,11 +37,32 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat; /*INSERINDO A IMAGEM DO IPHONE*/
 }
 
-iframe#tela {
+iframe#tela { /*CONFIGURAÇÃO DA TELA DENTRO DO CELULAR*/
     position: relative;
     top: 66px;
     left: 17px;
     width: 230px;
     height: 400px;
     background-size: cover;
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img { /*CONFIGURAÇÃO DOS BOTÕES*/
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%; /*DEIXANDO OS BOTÕES REDONDOS*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 400); /*CONFIGURAÇÃO DAS SOMBRAS DOS BOTÕES*/
+    box-sizing: border-box; /*OS BOTOES NAO IRÃO SE MEXER AO SEREM CLICADOS*/
+}
+
+section#redes-sociais img:hover { /*ANIMAÇÃO DOS BOTÕES*/
+    border: 2px solid rgba(255, 255, 255, 0.661);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.670);
+    transition: transform .3s border 1s;
+
 }
