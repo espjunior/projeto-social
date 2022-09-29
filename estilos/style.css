@@ -12,8 +12,8 @@ html, body {
     background-color: black;
 }
 
-body {
-    background: url(../imagens/fundo-madeira.jpg) no-repeat top center; /*INSERINDO A IMAGEM DO FUNDO*/
+body { /*CONFIGURANDO O FUNDO DO SITE*/
+    background: url(../imagens/fundo-site06.jpg) no-repeat top center; /*INSERINDO A IMAGEM DO FUNDO*/
     background-size: cover; /*A IMAGEM IRÁ PREENCHER A TELA INTEIRA*/
     background-attachment: fixed; /* PARA NAO HAVER ROLAGEM*/
 
